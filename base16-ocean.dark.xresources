@@ -1,0 +1,39 @@
+! Base16 Ocean
+! Scheme: Chris Kempson (http://chriskempson.com)
+
+#define base00 #2B303B
+#define base01 #343D46
+#define base02 #4F5B66
+#define base03 #65737E
+#define base04 #A7ADBA
+#define base05 #C0C5CE
+#define base06 #DFE1E8
+#define base07 #EFF1F5
+#define base08 #CB716E
+#define base09 #D08770
+#define base0A #EBCB8B
+#define base0B #A3BE8C
+#define base0C #96B5B4
+#define base0D #8FA1B3
+#define base0E #B48EAD
+#define base0F #AB7967
+
+*.foreground:   base05
+*.background:   base00
+*.cursorColor:  base05
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+*.color8:       base03
+*.color9:       base09
+*.color10:      base01
+*.color11:      base02
+*.color12:      base04
+*.color13:      base06
+*.color14:      base0F
+*.color15:      base07
