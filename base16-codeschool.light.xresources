@@ -1,26 +1,26 @@
-! Base16 Atelier Forest
-! Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
+! Base16 Codeschool
+! Scheme: brettof86
 
-#define base00 #1b1918
-#define base01 #2c2421
-#define base02 #68615e
-#define base03 #766e6b
-#define base04 #9c9491
-#define base05 #a8a19f
-#define base06 #e6e2e0
-#define base07 #f1efee
-#define base08 #f22c40
-#define base09 #df5320
-#define base0A #d5911a
-#define base0B #5ab738
-#define base0C #00ad9c
-#define base0D #407ee7
-#define base0E #6666ea
-#define base0F #c33ff3
+#define base00 #232c31
+#define base01 #1c3657
+#define base02 #2a343a
+#define base03 #3f4944
+#define base04 #84898c
+#define base05 #9ea7a6
+#define base06 #a7cfa3
+#define base07 #b5d8f6
+#define base08 #2a5491
+#define base09 #43820d
+#define base0A #a03b1e
+#define base0B #237986
+#define base0C #b02f30
+#define base0D #484d79
+#define base0E #c59820
+#define base0F #c98344
 
-*.foreground:   base05
-*.background:   base00
-*.cursorColor:  base05
+*.foreground:   base02
+*.background:   base07
+*.cursorColor:  base02
 
 *.color0:       base00
 *.color1:       base08
