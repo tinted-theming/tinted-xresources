@@ -1,0 +1,6 @@
+default: 
+    extension: .xresources
+    output: Xresources
+default-256:
+    extension: .256.xresources
+    output: Xresources
