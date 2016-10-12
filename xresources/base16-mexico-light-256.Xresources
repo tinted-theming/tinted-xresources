@@ -1,22 +1,22 @@
-! Base16 Twilight
-! Scheme: David Hart (https://github.com/hartbit)
+! Base16 Mexico Light
+! Scheme: Sheldon Johnson
 
-#define base00 #1e1e1e
-#define base01 #323537
-#define base02 #464b50
-#define base03 #5f5a60
-#define base04 #838184
-#define base05 #a7a7a7
-#define base06 #c3c3c3
-#define base07 #ffffff
-#define base08 #cf6a4c
-#define base09 #cda869
-#define base0A #f9ee98
-#define base0B #8f9d6a
-#define base0C #afc4db
-#define base0D #7587a6
-#define base0E #9b859d
-#define base0F #9b703f
+#define base00 #f8f8f8
+#define base01 #e8e8e8
+#define base02 #d8d8d8
+#define base03 #b8b8b8
+#define base04 #585858
+#define base05 #383838
+#define base06 #282828
+#define base07 #181818
+#define base08 #ab4642
+#define base09 #dc9656
+#define base0A #f79a0e
+#define base0B #538947
+#define base0C #4b8093
+#define base0D #7cafc2
+#define base0E #96609e
+#define base0F #a16946
 
 *.foreground:   base05
 *.background:   base00

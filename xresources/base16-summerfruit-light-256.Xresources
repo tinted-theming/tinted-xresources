@@ -1,22 +1,22 @@
-! Base16 Twilight
-! Scheme: David Hart (https://github.com/hartbit)
+! Base16 Summerfruit Light
+! Scheme: Christopher Corley (http://christop.club/)
 
-#define base00 #1e1e1e
-#define base01 #323537
-#define base02 #464b50
-#define base03 #5f5a60
-#define base04 #838184
-#define base05 #a7a7a7
-#define base06 #c3c3c3
-#define base07 #ffffff
-#define base08 #cf6a4c
-#define base09 #cda869
-#define base0A #f9ee98
-#define base0B #8f9d6a
-#define base0C #afc4db
-#define base0D #7587a6
-#define base0E #9b859d
-#define base0F #9b703f
+#define base00 #FFFFFF
+#define base01 #E0E0E0
+#define base02 #D0D0D0
+#define base03 #B0B0B0
+#define base04 #000000
+#define base05 #101010
+#define base06 #151515
+#define base07 #202020
+#define base08 #FF0086
+#define base09 #FD8900
+#define base0A #ABA800
+#define base0B #00C918
+#define base0C #1FAAAA
+#define base0D #3777E6
+#define base0E #AD00A1
+#define base0F #CC6633
 
 *.foreground:   base05
 *.background:   base00

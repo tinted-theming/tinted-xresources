@@ -1,22 +1,22 @@
-! Base16 Twilight
-! Scheme: David Hart (https://github.com/hartbit)
+! Base16 OneDark
+! Scheme: Lalit Magant (http://github.com/tilal6991)
 
-#define base00 #1e1e1e
-#define base01 #323537
-#define base02 #464b50
-#define base03 #5f5a60
-#define base04 #838184
-#define base05 #a7a7a7
-#define base06 #c3c3c3
-#define base07 #ffffff
-#define base08 #cf6a4c
-#define base09 #cda869
-#define base0A #f9ee98
-#define base0B #8f9d6a
-#define base0C #afc4db
-#define base0D #7587a6
-#define base0E #9b859d
-#define base0F #9b703f
+#define base00 #282c34
+#define base01 #353b45
+#define base02 #3e4451
+#define base03 #545862
+#define base04 #565c64
+#define base05 #abb2bf
+#define base06 #b6bdca
+#define base07 #c8ccd4
+#define base08 #e06c75
+#define base09 #d19a66
+#define base0A #e5c07b
+#define base0B #98c379
+#define base0C #56b6c2
+#define base0D #61afef
+#define base0E #c678dd
+#define base0F #be5046
 
 *.foreground:   base05
 *.background:   base00
