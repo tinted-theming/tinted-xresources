@@ -1,0 +1,45 @@
+! Base16 Ayu Mirage
+! Scheme: Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+
+#define base00 #171b24
+#define base01 #1f2430
+#define base02 #242936
+#define base03 #707a8c
+#define base04 #8a9199
+#define base05 #cccac2
+#define base06 #d9d7ce
+#define base07 #f3f4f5
+#define base08 #f28779
+#define base09 #ffad66
+#define base0A #ffd173
+#define base0B #d5ff80
+#define base0C #95e6cb
+#define base0D #5ccfe6
+#define base0E #d4bfff
+#define base0F #f29e74
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

@@ -1,0 +1,45 @@
+! Base16 lime
+! Scheme: limelier
+
+#define base00 #1a1a2f
+#define base01 #202030
+#define base02 #2a2a3f
+#define base03 #313140
+#define base04 #515155
+#define base05 #818175
+#define base06 #fff2d1
+#define base07 #fff8e1
+#define base08 #ff662a
+#define base09 #ff773a
+#define base0A #ffd15e
+#define base0B #8cd97c
+#define base0C #4cad83
+#define base0D #2b926f
+#define base0E #1b825f
+#define base0F #b4d97c
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

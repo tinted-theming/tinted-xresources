@@ -1,0 +1,45 @@
+! Base16 Windows NT Light
+! Scheme: Fergus Collins (https://github.com/C-Fergus)
+
+#define base00 #ffffff
+#define base01 #eaeaea
+#define base02 #d5d5d5
+#define base03 #c0c0c0
+#define base04 #a0a0a0
+#define base05 #808080
+#define base06 #404040
+#define base07 #000000
+#define base08 #800000
+#define base09 #ffff00
+#define base0A #808000
+#define base0B #008000
+#define base0C #008080
+#define base0D #000080
+#define base0E #800080
+#define base0F #00ff00
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

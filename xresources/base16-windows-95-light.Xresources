@@ -1,0 +1,45 @@
+! Base16 Windows 95 Light
+! Scheme: Fergus Collins (https://github.com/C-Fergus)
+
+#define base00 #fcfcfc
+#define base01 #e0e0e0
+#define base02 #c4c4c4
+#define base03 #a8a8a8
+#define base04 #7e7e7e
+#define base05 #545454
+#define base06 #2a2a2a
+#define base07 #000000
+#define base08 #a80000
+#define base09 #fcfc54
+#define base0A #a85400
+#define base0B #00a800
+#define base0C #00a8a8
+#define base0D #0000a8
+#define base0E #a800a8
+#define base0F #54fc54
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

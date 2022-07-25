@@ -1,0 +1,45 @@
+! Base16 Primer Dark Dimmed
+! Scheme: Jimmy Lin
+
+#define base00 #1c2128
+#define base01 #373e47
+#define base02 #444c56
+#define base03 #545d68
+#define base04 #768390
+#define base05 #909dab
+#define base06 #adbac7
+#define base07 #cdd9e5
+#define base08 #f47067
+#define base09 #e0823d
+#define base0A #c69026
+#define base0B #57ab5a
+#define base0C #96d0ff
+#define base0D #539bf5
+#define base0E #e275ad
+#define base0F #ae5622
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

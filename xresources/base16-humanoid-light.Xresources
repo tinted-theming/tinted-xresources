@@ -1,0 +1,45 @@
+! Base16 Humanoid light
+! Scheme: Thomas (tasmo) Friese
+
+#define base00 #f8f8f2
+#define base01 #efefe9
+#define base02 #deded8
+#define base03 #c0c0bd
+#define base04 #60615d
+#define base05 #232629
+#define base06 #2f3337
+#define base07 #070708
+#define base08 #b0151a
+#define base09 #ff3d00
+#define base0A #ffb627
+#define base0B #388e3c
+#define base0C #008e8e
+#define base0D #0082c9
+#define base0E #700f98
+#define base0F #b27701
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

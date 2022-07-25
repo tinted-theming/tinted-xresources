@@ -1,0 +1,45 @@
+! Base16 Gotham
+! Scheme: Andrea Leopardi (arranged by Brett Jones)
+
+#define base00 #0c1014
+#define base01 #11151c
+#define base02 #091f2e
+#define base03 #0a3749
+#define base04 #245361
+#define base05 #599cab
+#define base06 #99d1ce
+#define base07 #d3ebe9
+#define base08 #c23127
+#define base09 #d26937
+#define base0A #edb443
+#define base0B #33859e
+#define base0C #2aa889
+#define base0D #195466
+#define base0E #888ca6
+#define base0F #4e5166
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

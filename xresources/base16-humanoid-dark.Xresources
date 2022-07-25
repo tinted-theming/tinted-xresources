@@ -1,0 +1,45 @@
+! Base16 Humanoid dark
+! Scheme: Thomas (tasmo) Friese
+
+#define base00 #232629
+#define base01 #333b3d
+#define base02 #484e54
+#define base03 #60615d
+#define base04 #c0c0bd
+#define base05 #f8f8f2
+#define base06 #fcfcf6
+#define base07 #fcfcfc
+#define base08 #f11235
+#define base09 #ff9505
+#define base0A #ffb627
+#define base0B #02d849
+#define base0C #0dd9d6
+#define base0D #00a6fb
+#define base0E #f15ee3
+#define base0F #b27701
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

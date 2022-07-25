@@ -1,0 +1,45 @@
+! Base16 Tokyodark
+! Scheme: Tiagovla (https://github.com/tiagovla/)
+
+#define base00 #11121d
+#define base01 #151621
+#define base02 #43444f
+#define base03 #393a45
+#define base04 #1b1c27
+#define base05 #abb2bf
+#define base06 #555661
+#define base07 #2c2d38
+#define base08 #a485dd
+#define base09 #a485dd
+#define base0A #7199ee
+#define base0B #d7a65f
+#define base0C #a485dd
+#define base0D #95c561
+#define base0E #ee6d85
+#define base0F #773440
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

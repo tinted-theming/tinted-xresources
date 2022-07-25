@@ -1,5 +1,5 @@
 ! Base16 Espresso
-! Scheme: Alex Mirrington (https://github.com/alexmirrington)
+! Scheme: Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
 
 #define base00 #2d2d2d
 #define base01 #393939

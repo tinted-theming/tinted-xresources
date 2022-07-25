@@ -1,0 +1,45 @@
+! Base16 tender
+! Scheme: Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+
+#define base00 #282828
+#define base01 #383838
+#define base02 #484848
+#define base03 #4c4c4c
+#define base04 #b8b8b8
+#define base05 #eeeeee
+#define base06 #e8e8e8
+#define base07 #feffff
+#define base08 #f43753
+#define base09 #dc9656
+#define base0A #ffc24b
+#define base0B #c9d05c
+#define base0C #73cef4
+#define base0D #b3deef
+#define base0E #d3b987
+#define base0F #a16946
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

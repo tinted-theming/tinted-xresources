@@ -1,0 +1,45 @@
+! Base16 Gruvbox Material Dark, Medium
+! Scheme: Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
+
+#define base00 #292828
+#define base01 #32302f
+#define base02 #504945
+#define base03 #665c54
+#define base04 #bdae93
+#define base05 #ddc7a1
+#define base06 #ebdbb2
+#define base07 #fbf1c7
+#define base08 #ea6962
+#define base09 #e78a4e
+#define base0A #d8a657
+#define base0B #a9b665
+#define base0C #89b482
+#define base0D #7daea3
+#define base0E #d3869b
+#define base0F #bd6f3e
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

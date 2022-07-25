@@ -1,0 +1,45 @@
+! Base16 dirtysea
+! Scheme: Kahlil (Kal) Hodgson
+
+#define base00 #e0e0e0
+#define base01 #d0dad0
+#define base02 #d0d0d0
+#define base03 #707070
+#define base04 #202020
+#define base05 #000000
+#define base06 #f8f8f8
+#define base07 #c4d9c4
+#define base08 #840000
+#define base09 #006565
+#define base0A #755b00
+#define base0B #730073
+#define base0C #755b00
+#define base0D #007300
+#define base0E #000090
+#define base0F #755b00
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

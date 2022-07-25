@@ -1,0 +1,45 @@
+! Base16 Equilibrium Light
+! Scheme: Carlo Abelli
+
+#define base00 #f5f0e7
+#define base01 #e7e2d9
+#define base02 #d8d4cb
+#define base03 #73777f
+#define base04 #5a5f66
+#define base05 #43474e
+#define base06 #2c3138
+#define base07 #181c22
+#define base08 #d02023
+#define base09 #bf3e05
+#define base0A #9d6f00
+#define base0B #637200
+#define base0C #007a72
+#define base0D #0073b5
+#define base0E #4e66b6
+#define base0F #c42775
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

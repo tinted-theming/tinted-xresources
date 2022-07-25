@@ -1,0 +1,45 @@
+! Base16 pandora
+! Scheme: Cassandra Fox
+
+#define base00 #131213
+#define base01 #2f1823
+#define base02 #472234
+#define base03 #ffbee3
+#define base04 #9b2a46
+#define base05 #f15c99
+#define base06 #81506a
+#define base07 #632227
+#define base08 #b00b69
+#define base09 #ff9153
+#define base0A #ffcc00
+#define base0B #9ddf69
+#define base0C #714ca6
+#define base0D #008080
+#define base0E #a24030
+#define base0F #a24030
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

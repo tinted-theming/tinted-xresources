@@ -1,0 +1,45 @@
+! Base16 Rosé Pine Dawn
+! Scheme: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+
+#define base00 #faf4ed
+#define base01 #fffaf3
+#define base02 #f2e9de
+#define base03 #9893a5
+#define base04 #6e6a86
+#define base05 #575279
+#define base06 #555169
+#define base07 #26233a
+#define base08 #1f1d2e
+#define base09 #b4637a
+#define base0A #ea9d34
+#define base0B #d7827e
+#define base0C #286983
+#define base0D #56949f
+#define base0E #907aa9
+#define base0F #c5c3ce
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

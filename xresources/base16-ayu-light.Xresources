@@ -1,0 +1,45 @@
+! Base16 Ayu Light
+! Scheme: Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+
+#define base00 #fafafa
+#define base01 #f3f4f5
+#define base02 #f8f9fa
+#define base03 #abb0b6
+#define base04 #828c99
+#define base05 #5c6773
+#define base06 #242936
+#define base07 #1a1f29
+#define base08 #f07178
+#define base09 #fa8d3e
+#define base0A #f2ae49
+#define base0B #86b300
+#define base0C #4cbf99
+#define base0D #36a3d9
+#define base0E #a37acc
+#define base0F #e6ba7e
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

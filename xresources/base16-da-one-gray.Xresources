@@ -1,0 +1,45 @@
+! Base16 Da One Gray
+! Scheme: NNB (https://github.com/NNBnh)
+
+#define base00 #181818
+#define base01 #282828
+#define base02 #585858
+#define base03 #888888
+#define base04 #c8c8c8
+#define base05 #ffffff
+#define base06 #ffffff
+#define base07 #ffffff
+#define base08 #fa7883
+#define base09 #ffc387
+#define base0A #ff9470
+#define base0B #98c379
+#define base0C #8af5ff
+#define base0D #6bb8ff
+#define base0E #e799ff
+#define base0F #b3684f
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

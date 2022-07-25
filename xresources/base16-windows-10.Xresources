@@ -1,0 +1,45 @@
+! Base16 Windows 10
+! Scheme: Fergus Collins (https://github.com/C-Fergus)
+
+#define base00 #0c0c0c
+#define base01 #2f2f2f
+#define base02 #535353
+#define base03 #767676
+#define base04 #b9b9b9
+#define base05 #cccccc
+#define base06 #dfdfdf
+#define base07 #f2f2f2
+#define base08 #e74856
+#define base09 #c19c00
+#define base0A #f9f1a5
+#define base0B #16c60c
+#define base0C #61d6d6
+#define base0D #3b78ff
+#define base0E #b4009e
+#define base0F #13a10e
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

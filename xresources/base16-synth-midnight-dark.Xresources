@@ -1,22 +1,22 @@
-! Base16 Synth Midnight Dark
+! Base16 Synth Midnight Terminal Dark
 ! Scheme: Michaël Ball (http://github.com/michael-ball/)
 
-#define base00 #040404
-#define base01 #141414
-#define base02 #242424
-#define base03 #61507a
-#define base04 #bfbbbf
-#define base05 #dfdbdf
-#define base06 #efebef
-#define base07 #fffbff
+#define base00 #050608
+#define base01 #1a1b1c
+#define base02 #28292a
+#define base03 #474849
+#define base04 #a3a5a6
+#define base05 #c1c3c4
+#define base06 #cfd1d2
+#define base07 #dddfe0
 #define base08 #b53b50
-#define base09 #e4600e
-#define base0A #dae84d
+#define base09 #ea770d
+#define base0A #c9d364
 #define base0B #06ea61
-#define base0C #7cede9
+#define base0C #42fff9
 #define base0D #03aeff
 #define base0E #ea5ce2
-#define base0F #9d4d0e
+#define base0F #cd6320
 
 *foreground:   base05
 #ifdef background_opacity

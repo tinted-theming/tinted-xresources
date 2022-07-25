@@ -1,0 +1,45 @@
+! Base16 UwUnicorn
+! Scheme: Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)
+
+#define base00 #241b26
+#define base01 #2f2a3f
+#define base02 #46354a
+#define base03 #6c3cb2
+#define base04 #7e5f83
+#define base05 #eed5d9
+#define base06 #d9c2c6
+#define base07 #e4ccd0
+#define base08 #877bb6
+#define base09 #de5b44
+#define base0A #a84a73
+#define base0B #c965bf
+#define base0C #9c5fce
+#define base0D #6a9eb5
+#define base0E #78a38f
+#define base0F #a3a079
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

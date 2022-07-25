@@ -1,0 +1,45 @@
+! Base16 Purpledream
+! Scheme: malet
+
+#define base00 #100510
+#define base01 #302030
+#define base02 #403040
+#define base03 #605060
+#define base04 #bbb0bb
+#define base05 #ddd0dd
+#define base06 #eee0ee
+#define base07 #fff0ff
+#define base08 #ff1d0d
+#define base09 #ccae14
+#define base0A #f000a0
+#define base0B #14cc64
+#define base0C #0075b0
+#define base0D #00a0f0
+#define base0E #b000d0
+#define base0F #6a2a3c
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

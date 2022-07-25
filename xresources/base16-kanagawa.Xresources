@@ -1,0 +1,45 @@
+! Base16 Kanagawa
+! Scheme: Tommaso Laurenzi (https://github.com/rebelot)
+
+#define base00 #1f1f28
+#define base01 #16161d
+#define base02 #223249
+#define base03 #54546d
+#define base04 #727169
+#define base05 #dcd7ba
+#define base06 #c8c093
+#define base07 #717c7c
+#define base08 #c34043
+#define base09 #ffa066
+#define base0A #c0a36e
+#define base0B #76946a
+#define base0C #6a9589
+#define base0D #7e9cd8
+#define base0E #957fb8
+#define base0F #d27e99
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07
