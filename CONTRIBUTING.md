@@ -24,7 +24,7 @@ Or the above steps represented in shell commands:
 
 ```shell 
 cd /path/to/base16-xresources/../ # This repos parent dir 
-git clone git@github.com:base16-project/base16-builder-go.git
+git clone git@github.com:tinted-theming/base16-builder-go.git
 cd base16-builder-go
 go build ./base16-builder-go/base16-builder-go \
   -template-dir ../base16-xresources
@@ -45,6 +45,6 @@ base16-builder-go \
 If you have more questions about [base16-builder-go][1], have a look at
 the information on the GitHub page.
 
-[1]: https://github.com/base16-project/base16-builder-go
-[2]: https://github.com/base16-project/base16-schemes
+[1]: https://github.com/tinted-theming/base16-builder-go
+[2]: https://github.com/tinted-theming/base16-schemes
 [3]: .github/workflows/update.yml
