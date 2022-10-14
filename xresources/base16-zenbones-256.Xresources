@@ -1,23 +1,23 @@
-! Base16 Paraiso
-! Scheme author: Jan T. Sott
+! Base16 Zenbones
+! Scheme author: mcchrish
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #2f1e2e
-#define base01 #41323f
-#define base02 #4f424c
-#define base03 #776e71
-#define base04 #8d8687
-#define base05 #a39e9b
-#define base06 #b9b6b0
-#define base07 #e7e9db
-#define base08 #ef6155
-#define base09 #f99b15
-#define base0A #fec418
-#define base0B #48b685
-#define base0C #5bc4bf
-#define base0D #06b6ef
-#define base0E #815ba4
-#define base0F #e96ba8
+#define base00 #191919
+#define base01 #de6e7c
+#define base02 #819b69
+#define base03 #b77e64
+#define base04 #6099c0
+#define base05 #b279a7
+#define base06 #66a5ad
+#define base07 #bbbbbb
+#define base08 #3d3839
+#define base09 #e8838f
+#define base0A #8bae68
+#define base0B #d68c67
+#define base0C #61abda
+#define base0D #cf86c1
+#define base0E #65b8c1
+#define base0F #8e8e8e
 
 *foreground:   base05
 #ifdef background_opacity

@@ -1,23 +1,23 @@
-! Base16 Tokyo City Dark
-! Scheme author: Michaël Ball
+! Base16 Zenbones
+! Scheme author: mcchrish
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #171d23
-#define base01 #1d252c
-#define base02 #28323a
-#define base03 #526270
-#define base04 #b7c5d3
-#define base05 #d8e2ec
-#define base06 #f6f6f8
-#define base07 #fbfbfd
-#define base08 #f7768e
-#define base09 #ff9e64
-#define base0A #b7c5d3
-#define base0B #9ece6a
-#define base0C #89ddff
-#define base0D #7aa2f7
-#define base0E #bb9af7
-#define base0F #bb9af7
+#define base00 #191919
+#define base01 #de6e7c
+#define base02 #819b69
+#define base03 #b77e64
+#define base04 #6099c0
+#define base05 #b279a7
+#define base06 #66a5ad
+#define base07 #bbbbbb
+#define base08 #3d3839
+#define base09 #e8838f
+#define base0A #8bae68
+#define base0B #d68c67
+#define base0C #61abda
+#define base0D #cf86c1
+#define base0E #65b8c1
+#define base0F #8e8e8e
 
 *foreground:   base05
 #ifdef background_opacity

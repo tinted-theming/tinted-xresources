@@ -1,5 +1,6 @@
 ! Base16 tender
-! Scheme: Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+! Scheme author: Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #282828
 #define base01 #383838

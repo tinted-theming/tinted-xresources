@@ -1,5 +1,6 @@
 ! Base16 Grayscale Light
-! Scheme: Alexandre Gavioli (https://github.com/Alexx2/)
+! Scheme author: Alexandre Gavioli (https://github.com/Alexx2/)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #f7f7f7
 #define base01 #e3e3e3

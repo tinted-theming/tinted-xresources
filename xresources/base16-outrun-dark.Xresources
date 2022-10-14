@@ -1,5 +1,6 @@
 ! Base16 Outrun Dark
-! Scheme: Hugo Delahousse (http://github.com/hugodelahousse/)
+! Scheme author: Hugo Delahousse (http://github.com/hugodelahousse/)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #00002a
 #define base01 #20204a

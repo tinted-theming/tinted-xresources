@@ -1,5 +1,6 @@
 ! Base16 Solar Flare
-! Scheme: Chuck Harmston (https://chuck.harmston.ch)
+! Scheme author: Chuck Harmston (https://chuck.harmston.ch)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #18262f
 #define base01 #222e38

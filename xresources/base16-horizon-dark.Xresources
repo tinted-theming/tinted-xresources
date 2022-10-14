@@ -1,5 +1,6 @@
 ! Base16 Horizon Dark
-! Scheme: Michaël Ball (http://github.com/michael-ball/)
+! Scheme author: Michaël Ball (http://github.com/michael-ball/)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #1c1e26
 #define base01 #232530

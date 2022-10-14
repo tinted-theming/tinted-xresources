@@ -1,5 +1,6 @@
 ! Base16 Twilight
-! Scheme: David Hart (https://github.com/hartbit)
+! Scheme author: David Hart (https://github.com/hartbit)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #1e1e1e
 #define base01 #323537

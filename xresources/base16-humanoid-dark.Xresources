@@ -1,5 +1,6 @@
 ! Base16 Humanoid dark
-! Scheme: Thomas (tasmo) Friese
+! Scheme author: Thomas (tasmo) Friese
+! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #232629
 #define base01 #333b3d
