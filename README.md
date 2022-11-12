@@ -21,5 +21,5 @@ instructions.
 
 [1]: https://github.com/base16-project
 [2]: https://wiki.gentoo.org/wiki/X_resources
-[3]: https://base16-project.github.io/base16-gallery
+[3]: https://tinted-theming.github.io/base16-gallery
 [4]: CONTRIBUTING.md
