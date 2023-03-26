@@ -1,23 +1,23 @@
-! Base16 Apprentice
-! Scheme author: romainl
+! Base16 Catppuccin Macchiato
+! Scheme author: https://github.com/catppuccin/catppuccin
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #262626
-#define base01 #af5f5f
-#define base02 #5f875f
-#define base03 #87875f
-#define base04 #5f87af
-#define base05 #5f5f87
-#define base06 #5f8787
-#define base07 #6c6c6c
-#define base08 #444444
-#define base09 #ff8700
-#define base0A #87af87
-#define base0B #ffffaf
-#define base0C #87afd7
-#define base0D #8787af
-#define base0E #5fafaf
-#define base0F #bcbcbc
+#define base00 #24273a
+#define base01 #1e2030
+#define base02 #363a4f
+#define base03 #494d64
+#define base04 #5b6078
+#define base05 #cad3f5
+#define base06 #f4dbd6
+#define base07 #b7bdf8
+#define base08 #ed8796
+#define base09 #f5a97f
+#define base0A #eed49f
+#define base0B #a6da95
+#define base0C #8bd5ca
+#define base0D #8aadf4
+#define base0E #c6a0f6
+#define base0F #f0c6c6
 
 *foreground:   base05
 #ifdef background_opacity
