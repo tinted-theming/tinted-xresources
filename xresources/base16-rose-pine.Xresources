@@ -1,23 +1,23 @@
 ! Base16 Rosé Pine
-! Scheme author: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+! Scheme author: Emilia Dunfelt &lt;edun@dunfelt.se&gt;
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #191724
 #define base01 #1f1d2e
 #define base02 #26233a
-#define base03 #555169
-#define base04 #6e6a86
+#define base03 #6e6a86
+#define base04 #908caa
 #define base05 #e0def4
-#define base06 #f0f0f3
-#define base07 #c5c3ce
-#define base08 #e2e1e7
-#define base09 #eb6f92
-#define base0A #f6c177
-#define base0B #ebbcba
-#define base0C #31748f
-#define base0D #9ccfd8
-#define base0E #c4a7e7
-#define base0F #e5e5e5
+#define base06 #e0def4
+#define base07 #524f67
+#define base08 #eb6f92
+#define base09 #f6c177
+#define base0A #ebbcba
+#define base0B #31748f
+#define base0C #9ccfd8
+#define base0D #c4a7e7
+#define base0E #f6c177
+#define base0F #524f67
 
 *foreground:   base05
 #ifdef background_opacity
