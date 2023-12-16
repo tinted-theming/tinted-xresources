@@ -1,0 +1,46 @@
+! Base16 caroline
+! Scheme author: ed (https://codeberg.org/ed)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #1c1213
+#define base01 #3a2425
+#define base02 #563837
+#define base03 #6d4745
+#define base04 #8b5d57
+#define base05 #a87569
+#define base06 #c58d7b
+#define base07 #e3a68c
+#define base08 #c24f57
+#define base09 #a63650
+#define base0A #f28171
+#define base0B #806c61
+#define base0C #6b6566
+#define base0D #684c59
+#define base0E #a63650
+#define base0F #893f45
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07
