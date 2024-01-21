@@ -1,0 +1,46 @@
+! Base16 SAGA
+! Scheme author: https://github.com/SAGAtheme/SAGA
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #05080a
+#define base01 #0a1014
+#define base02 #0f181e
+#define base03 #141f27
+#define base04 #192630
+#define base05 #dce2f7
+#define base06 #f8eae7
+#define base07 #ccd3fe
+#define base08 #ffd4e9
+#define base09 #fbcbae
+#define base0A #fbebc8
+#define base0B #f7ddff
+#define base0C #c5edc1
+#define base0D #c9fff7
+#define base0E #dcc3f9
+#define base0F #f6dddd
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07
