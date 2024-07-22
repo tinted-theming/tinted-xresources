@@ -1,6 +1,6 @@
 # Contributing
 
-This repository includes a [GitHub Action][3] that builds the
+This repository includes a [GitHub Action] that builds the
 colorschemes once a week. This keeps the colorschemes up-to-date
 automatically.
 
@@ -8,43 +8,29 @@ automatically.
 
 ### Dependencies
 
-- `>=0.2.0` [base16-builder-go][1]
-- golang `>=1.16` to build base16-builder-go
+- `>=0.9.3` [tinted-builder-rust]
 
 ### Usage for template editing
 
-1. Clone [base16-builder-go][1] somewhere on your system.
-1. Run `cd /path/to/base-builder-go && go build` to generate a binary:
-`/path/to/base-builder-go/base16-builder-go`
-1. Now execute the binary you generated while giving the `-template-dir`
-arg the path to `base16-xresources` repository: `./base16-builder-go
--template-dir ../base16-xresources`
-
-Or the above steps represented in shell commands:
-
-```shell 
-cd /path/to/base16-xresources/../ # This repos parent dir 
-git clone git@github.com:tinted-theming/base16-builder-go.git
-cd base16-builder-go
-go build ./base16-builder-go/base16-builder-go \
-  -template-dir ../base16-xresources
-```
+1. Install [tinted-builder-rust]
+1. `tinted-builder-rust build path/to/base16-xresources`
 
 ### Usage for adding or editing a colorscheme
 
-If you want to add or edit a colorscheme but want to test it out, you
-simply need to pass in your local [base16-schemes][2] directory when
-executing the `base16-builder-go` binary.
+1. Clone the base16-xresources
+1. Clone [tinted-schemes]
+1. Install [tinted-builder-rust]
+1. Execute `tinted-builder-rust build base16-xresources` with 
+  - `--schemes-dir` arg - provide `/path/to/base16-scehemes`
 
 ```shell
-base16-builder-go \
-  -schemes-dir /path/to/base16-schemes \
-  -template-dir /path/to/base16-xresources
+tinted-builder-rust build /path/to/base16-xresources \
+  --schemes-dir /path/to/base16-schemes
 ```
 
-If you have more questions about [base16-builder-go][1], have a look at
+If you have more questions about [tinted-builder-rust], have a look at
 the information on the GitHub page.
 
-[1]: https://github.com/tinted-theming/base16-builder-go
-[2]: https://github.com/tinted-theming/base16-schemes
-[3]: .github/workflows/update.yml
+[tinted-builder-rust]: https://github.com/tinted-theming/tinted-builder-rust
+[tinted-schemes]: https://github.com/tinted-theming/schemes
+[GitHub Action]: .github/workflows/update.yml
