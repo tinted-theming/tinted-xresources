@@ -1,0 +1,55 @@
+! Base16 iA Dark
+! Scheme author: iA Inc. (modified by aramisgithub)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #1a1a1a
+#define base01 #222222
+#define base02 #1d414d
+#define base03 #767676
+#define base04 #b8b8b8
+#define base05 #cccccc
+#define base06 #e8e8e8
+#define base07 #f8f8f8
+#define base08 #d88568
+#define base09 #d86868
+#define base0A #b99353
+#define base0B #83a471
+#define base0C #7c9cae
+#define base0D #8eccdd
+#define base0E #b98eb2
+#define base0F #8b6c37
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
