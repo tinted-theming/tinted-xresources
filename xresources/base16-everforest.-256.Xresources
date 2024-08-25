@@ -2,22 +2,22 @@
 ! Scheme author: Sainnhe Park (https://github.com/sainnhe)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #2f383e
-#define base01 #374247
-#define base02 #4a555b
+#define base00 #2d353b
+#define base01 #343f44
+#define base02 #475258
 #define base03 #859289
 #define base04 #9da9a0
 #define base05 #d3c6aa
-#define base06 #e4e1cd
+#define base06 #e6e2cc
 #define base07 #fdf6e3
-#define base08 #7fbbb3
-#define base09 #d699b6
+#define base08 #e67e80
+#define base09 #e69875
 #define base0A #dbbc7f
-#define base0B #83c092
-#define base0C #e69875
-#define base0D #a7c080
-#define base0E #e67e80
-#define base0F #eaedc8
+#define base0B #a7c080
+#define base0C #83c092
+#define base0D #7fbbb3
+#define base0E #d699b6
+#define base0F #9da9a0
 
 *foreground:   base05
 #ifdef background_opacity
