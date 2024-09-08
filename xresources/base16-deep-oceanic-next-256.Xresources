@@ -1,23 +1,23 @@
-! Base16 vulcan
-! Scheme author: Andrey Varfolomeev
+! Base16 Deep Oceanic Next
+! Scheme author: spearkkk (https://github.com/spearkkk/deep-oceanic-next)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #041523
-#define base01 #122339
-#define base02 #003552
-#define base03 #7a5759
-#define base04 #6b6977
-#define base05 #5b778c
-#define base06 #333238
-#define base07 #214d68
-#define base08 #818591
-#define base09 #9198a3
-#define base0A #adb4b9
-#define base0B #977d7c
-#define base0C #977d7c
-#define base0D #977d7c
-#define base0E #9198a3
-#define base0F #977d7c
+#define base00 #003b46
+#define base01 #004f5e
+#define base02 #006374
+#define base03 #007a8a
+#define base04 #0093a3
+#define base05 #dce3e8
+#define base06 #e6ebf0
+#define base07 #f0f5f5
+#define base08 #e6454b
+#define base09 #ff6a4b
+#define base0A #ffcc66
+#define base0B #85b57a
+#define base0C #4da6a6
+#define base0D #3a82e6
+#define base0E #8c4de6
+#define base0F #e673a3
 
 *foreground:   base05
 #ifdef background_opacity

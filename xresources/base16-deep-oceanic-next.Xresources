@@ -1,0 +1,46 @@
+! Base16 Deep Oceanic Next
+! Scheme author: spearkkk (https://github.com/spearkkk/deep-oceanic-next)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #003b46
+#define base01 #004f5e
+#define base02 #006374
+#define base03 #007a8a
+#define base04 #0093a3
+#define base05 #dce3e8
+#define base06 #e6ebf0
+#define base07 #f0f5f5
+#define base08 #e6454b
+#define base09 #ff6a4b
+#define base0A #ffcc66
+#define base0B #85b57a
+#define base0C #4da6a6
+#define base0D #3a82e6
+#define base0E #8c4de6
+#define base0F #e673a3
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07
