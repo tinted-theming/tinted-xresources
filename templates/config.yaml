@@ -1,6 +1,9 @@
-default: 
+base16:
     extension: .Xresources
     output: xresources
-default-256:
-    extension: -256.Xresources
+    supported-systems: [base16]
+
+base24:
+    extension: .Xresources
     output: xresources
+    supported-systems: [base24]

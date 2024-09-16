@@ -1,11 +1,10 @@
-! Base16 Synth Midnight Terminal Light
+! base16 Synth Midnight Terminal Light
 ! Scheme author: Michaël Ball (http://github.com/michael-ball/)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #dddfe0
 #define base01 #cfd1d2
 #define base02 #c1c3c4
-#define base03 #a3a5a6
 #define base04 #474849
 #define base05 #28292a
 #define base06 #1a1b1c
@@ -36,11 +35,20 @@
 *color6:       base0C
 *color7:       base05
 
-*color8:       base03
-*color9:       base09
-*color10:      base01
-*color11:      base02
-*color12:      base04
-*color13:      base06
-*color14:      base0F
+*color8:       base02
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
 *color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

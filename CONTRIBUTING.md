@@ -13,18 +13,18 @@ automatically.
 ### Usage for template editing
 
 1. Install [tinted-builder-rust]
-1. `tinted-builder-rust build path/to/base16-xresources`
+1. `tinted-builder-rust build path/to/tinted-xresources`
 
 ### Usage for adding or editing a colorscheme
 
-1. Clone the base16-xresources
+1. Clone the tinted-xresources
 1. Clone [tinted-schemes]
 1. Install [tinted-builder-rust]
-1. Execute `tinted-builder-rust build base16-xresources` with 
+1. Execute `tinted-builder-rust build tinted-xresources` with 
   - `--schemes-dir` arg - provide `/path/to/tinted-schemes`
 
 ```shell
-tinted-builder-rust build /path/to/base16-xresources \
+tinted-builder-rust build /path/to/tinted-xresources \
   --schemes-dir /path/to/tinted-schemes
 ```
 
