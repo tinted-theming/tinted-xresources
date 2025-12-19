@@ -38,6 +38,12 @@ update your theme when running `tinty apply base16-default-dark` (where
    supported-systems = ["base16", "base24"]
    ```
 
+### Loading 256 colors in Urxvt
+
+As noted in the template files, if you are using urxvt, colors beyond 15 might
+not be loaded by default. To fix this, you can use the `urxvt-xresources-256`
+extension available at: `https://github.com/Roliga/urxvt-xresources-256`
+
 ## Contributing
 
 See [CONTRIBUTING.md], which contains building and contributing
