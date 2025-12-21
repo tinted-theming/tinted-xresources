@@ -5,6 +5,7 @@
 #define base00 #2f1e2e
 #define base01 #41323f
 #define base02 #4f424c
+#define base03 #776e71
 #define base04 #8d8687
 #define base05 #a39e9b
 #define base06 #b9b6b0
@@ -35,7 +36,7 @@
 *color6:       base0C
 *color7:       base05
 
-*color8:       base02
+*color8:       base03
 *color9:       base08
 *color10:      base0B
 *color11:      base0A
