@@ -19,11 +19,11 @@
 #define base0E #a48cf2
 #define base0F #f265b5
 #define base12 #f89a9d
-#define base13 #f5ffa1
+#define base13 #f9e9a1
 #define base14 #6fffc1
 #define base15 #6ce9ff
-#define base16 #f0313e
-#define base17 #f58bc8
+#define base16 #7ae9ff
+#define base17 #d4b3ff
 
 *foreground:   base05
 #ifdef background_opacity

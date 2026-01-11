@@ -1,23 +1,23 @@
-! base16 Kanagawa Dragon
-! Scheme author: Stefan Weigl-Bosker (https://github.com/sweiglbosker), Tommaso Laurenzi (https://github.com/rebelot/kanagawa.nvim)
+! base16 Cyberpunk
+! Scheme author: benjujo
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #181616
-#define base01 #282727
-#define base02 #393836
-#define base03 #625e5a
-#define base04 #737c73
-#define base05 #c5c9c5
-#define base06 #c8c093
-#define base07 #c5c9c5
-#define base08 #c4746e
-#define base09 #b6927b
-#define base0A #c4b28a
-#define base0B #8a9a7b
-#define base0C #8ea4a2
-#define base0D #8ba4b0
-#define base0E #a292a3
-#define base0F #b98d7b
+#define base00 #000000
+#define base01 #2b2b2b
+#define base02 #383838
+#define base03 #4f4f4f
+#define base04 #8b8989
+#define base05 #dcdccc
+#define base06 #f8f8f8
+#define base07 #ffffff
+#define base08 #ff0000
+#define base09 #ffa500
+#define base0A #ffff00
+#define base0B #61ce3c
+#define base0C #93e0e3
+#define base0D #4c83ff
+#define base0E #ff1493
+#define base0F #ff8c00
 
 *foreground:   base05
 #ifdef background_opacity
