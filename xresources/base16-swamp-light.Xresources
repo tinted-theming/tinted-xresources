@@ -1,23 +1,23 @@
-! base16 Dracula
-! Scheme author: clach04 (https://github.com/clach04)
+! base16 Swamp Light
+! Scheme author: Masroof Maindak (https://github.com/masroof-maindak)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #282a36
-#define base01 #21222c
-#define base02 #44475a
-#define base03 #6272a4
-#define base04 #9ea8c7
-#define base05 #f8f8f2
-#define base06 #f8f8f2
-#define base07 #ffffff
-#define base08 #ff5555
-#define base09 #ffb86c
-#define base0A #f1fa8c
-#define base0B #50fa7b
-#define base0C #8be9fd
-#define base0D #bd93f9
-#define base0E #ff79c6
-#define base0F #993333
+#define base00 #f1e3d1
+#define base01 #ddcebc
+#define base02 #c9b9a7
+#define base03 #b5a492
+#define base04 #a0907d
+#define base05 #64513e
+#define base06 #786653
+#define base07 #8c7b68
+#define base08 #d09700
+#define base09 #64513e
+#define base0A #993333
+#define base0B #908d6a
+#define base0C #d09700
+#define base0D #bf7979
+#define base0E #9e5581
+#define base0F #75858c
 
 *foreground:   base05
 #ifdef background_opacity
