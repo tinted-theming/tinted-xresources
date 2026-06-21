@@ -2,22 +2,22 @@
 ! Scheme author: Tinted Theming (https://github.com/tinted-theming)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #eaeef2
-#define base01 #d0d7de
+#define base00 #ffffff
+#define base01 #f6f8fa
 #define base02 #afb8c1
 #define base03 #8c959f
 #define base04 #6e7781
 #define base05 #424a53
 #define base06 #32383f
 #define base07 #1f2328
-#define base08 #fa4549
-#define base09 #e16f24
+#define base08 #953800
+#define base09 #0550ae
 #define base0A #bf8700
-#define base0B #2da44e
-#define base0C #339d9b
-#define base0D #218bff
-#define base0E #a475f9
-#define base0F #4d2d00
+#define base0B #0a3069
+#define base0C #116329
+#define base0D #8250df
+#define base0E #cf222e
+#define base0F #82071e
 
 *foreground:   base05
 #ifdef background_opacity

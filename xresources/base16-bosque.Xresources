@@ -1,23 +1,23 @@
-! base16 Github Dark
-! Scheme author: Tinted Theming (https://github.com/tinted-theming)
+! base16 Bosque
+! Scheme author: Teshre
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #0d1117
-#define base01 #161b22
-#define base02 #484f58
-#define base03 #6e7681
-#define base04 #8b949e
-#define base05 #c9d1d9
-#define base06 #f0f6fc
-#define base07 #ffffff
-#define base08 #ffa657
-#define base09 #79c0ff
-#define base0A #bb8009
-#define base0B #a5d6ff
-#define base0C #7ee787
-#define base0D #d2a8ff
-#define base0E #ff7b72
-#define base0F #ffa198
+#define base00 #0e1410
+#define base01 #16211a
+#define base02 #1e3023
+#define base03 #5c6e5e
+#define base04 #96aa98
+#define base05 #cfe5d2
+#define base06 #daebda
+#define base07 #e4f0e2
+#define base08 #e2706a
+#define base09 #7dc97a
+#define base0A #c8b84a
+#define base0B #6fc56e
+#define base0C #5fd0b8
+#define base0D #6dae9e
+#define base0E #b894d0
+#define base0F #35503e
 
 *foreground:   base05
 #ifdef background_opacity

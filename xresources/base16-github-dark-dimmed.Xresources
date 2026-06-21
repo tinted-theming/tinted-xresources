@@ -1,29 +1,23 @@
-! base24 Github Light
+! base16 Github Dark Dimmed
 ! Scheme author: Tinted Theming (https://github.com/tinted-theming)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #ffffff
-#define base01 #f6f8fa
-#define base02 #afb8c1
-#define base03 #8c959f
-#define base04 #6e7781
-#define base05 #424a53
-#define base06 #32383f
-#define base07 #1f2328
-#define base08 #953800
-#define base09 #0550ae
-#define base0A #bf8700
-#define base0B #0a3069
-#define base0C #116329
-#define base0D #8250df
-#define base0E #cf222e
-#define base0F #82071e
-#define base12 #ff8182
-#define base13 #d4a72c
-#define base14 #4ac26b
-#define base15 #49bcb7
-#define base16 #54aeff
-#define base17 #c297ff
+#define base00 #22272e
+#define base01 #2d333b
+#define base02 #545d68
+#define base03 #636e7b
+#define base04 #768390
+#define base05 #adbac7
+#define base06 #cdd9e5
+#define base07 #ffffff
+#define base08 #f69d50
+#define base09 #6cb6ff
+#define base0A #ae7c14
+#define base0B #96d0ff
+#define base0C #8ddb8c
+#define base0D #dcbdfb
+#define base0E #f47067
+#define base0F #ff938a
 
 *foreground:   base05
 #ifdef background_opacity
@@ -40,15 +34,15 @@
 *color4:       base0D
 *color5:       base0E
 *color6:       base0C
-*color7:       base06
+*color7:       base05
 
 *color8:       base03
-*color9:       base12
-*color10:      base14
-*color11:      base13
-*color12:      base16
-*color13:      base17
-*color14:      base15
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
 *color15:      base07
 
 ! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
