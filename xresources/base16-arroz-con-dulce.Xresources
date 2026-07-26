@@ -1,0 +1,55 @@
+! base16 Arroz con Dulce
+! Scheme author: Richard Martinez
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #fff8e7
+#define base01 #f7ebd3
+#define base02 #ead6b8
+#define base03 #c8a77a
+#define base04 #765b45
+#define base05 #4a2c20
+#define base06 #321c14
+#define base07 #21110b
+#define base08 #a11d48
+#define base09 #a3470a
+#define base0A #855500
+#define base0B #a2380c
+#define base0C #98263e
+#define base0D #5940a0
+#define base0E #8c1f68
+#define base0F #653221
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

@@ -1,0 +1,61 @@
+! base24 Cerulean Signal Light
+! Scheme author: Aaron Colichia (https://aaron.colichia.org/)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #f7f9fc
+#define base01 #eef4fb
+#define base02 #dde7f1
+#define base03 #637287
+#define base04 #566579
+#define base05 #232b38
+#define base06 #202b3a
+#define base07 #141d2a
+#define base08 #b4233d
+#define base09 #9a4f00
+#define base0A #6f6300
+#define base0B #17795e
+#define base0C #00727e
+#define base0D #006fa8
+#define base0E #a0007d
+#define base0F #7a4e3c
+#define base12 #c7354d
+#define base13 #7b6500
+#define base14 #247b4e
+#define base15 #007787
+#define base16 #0078b5
+#define base17 #b5149e
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base03
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
