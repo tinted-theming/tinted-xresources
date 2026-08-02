@@ -1,0 +1,55 @@
+! base16 Neovim Dark
+! Scheme author: https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #14161b
+#define base01 #07080d
+#define base02 #4f5258
+#define base03 #9b9ea4
+#define base04 #c4c6cd
+#define base05 #e0e2ea
+#define base06 #eef1f8
+#define base07 #eef1f8
+#define base08 #ffc0b9
+#define base09 #ffa500
+#define base0A #fce094
+#define base0B #b3f6c0
+#define base0C #8cf8f7
+#define base0D #a6dbff
+#define base0E #ffcaff
+#define base0F #cd853f
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
