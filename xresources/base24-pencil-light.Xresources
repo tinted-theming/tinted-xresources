@@ -9,7 +9,7 @@
 #define base04 #8d8d8d
 #define base05 #b3b3b3
 #define base06 #d9d9d9
-#define base07 #f1f1f1
+#define base07 #212121
 #define base08 #c30771
 #define base09 #a89c14
 #define base0A #20bbfc

@@ -9,7 +9,7 @@
 #define base04 #888888
 #define base05 #a1a1a1
 #define base06 #bbbbbb
-#define base07 #ffffff
+#define base07 #000000
 #define base08 #bb0000
 #define base09 #bbbb00
 #define base0A #5555ff
