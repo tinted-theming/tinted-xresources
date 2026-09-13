@@ -1,4 +1,4 @@
-! base16 Apprentice
+! base24 Apprentice
 ! Scheme author: Romain Lafourcade (https://github.com/romainl)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
@@ -18,6 +18,12 @@
 #define base0D #5f87af
 #define base0E #5f5f87
 #define base0F #af5f5f
+#define base12 #ff8700
+#define base13 #ffffaf
+#define base14 #87af87
+#define base15 #5fafaf
+#define base16 #87afd7
+#define base17 #8787af
 
 *foreground:   base05
 #ifdef background_opacity
@@ -34,15 +40,15 @@
 *color4:       base0D
 *color5:       base0E
 *color6:       base0C
-*color7:       base05
+*color7:       base06
 
 *color8:       base03
-*color9:       base08
-*color10:      base0B
-*color11:      base0A
-*color12:      base0D
-*color13:      base0E
-*color14:      base0C
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
 *color15:      base07
 
 ! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),

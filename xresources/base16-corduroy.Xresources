@@ -1,23 +1,23 @@
-! base16 Apprentice
-! Scheme author: Romain Lafourcade (https://github.com/romainl)
+! base16 Corduroy
+! Scheme author: taysatte (https://github.com/taysatte)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #262626
-#define base01 #303030
-#define base02 #3a3a3a
-#define base03 #444444
-#define base04 #6c6c6c
-#define base05 #bcbcbc
-#define base06 #dfdfdf
-#define base07 #ffffff
-#define base08 #af5f5f
-#define base09 #ff8700
-#define base0A #87875f
-#define base0B #5f875f
-#define base0C #5f8787
-#define base0D #5f87af
-#define base0E #5f5f87
-#define base0F #af5f5f
+#define base00 #1d1920
+#define base01 #261e2a
+#define base02 #2e2533
+#define base03 #6f6373
+#define base04 #887b8c
+#define base05 #cdc8d0
+#define base06 #cdc8d0
+#define base07 #504757
+#define base08 #e06278
+#define base09 #e99d90
+#define base0A #edb392
+#define base0B #4b8686
+#define base0C #e99d90
+#define base0D #d27f91
+#define base0E #c285b2
+#define base0F #887b8c
 
 *foreground:   base05
 #ifdef background_opacity
