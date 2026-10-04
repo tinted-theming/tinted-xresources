@@ -1,29 +1,29 @@
-! base24 Github Light High Contrast
-! Scheme author: Tinted Theming (https://github.com/tinted-theming)
+! base24 Abyssal
+! Scheme author: Joss Wright (https://www.weirddatascience.net)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #ffffff
-#define base01 #f6f8fa
-#define base02 #d1d9e0
-#define base03 #818b98
-#define base04 #59636e
-#define base05 #454c54
-#define base06 #25292e
-#define base07 #010409
-#define base08 #a0111f
-#define base09 #702c00
-#define base0A #603700
-#define base0B #024c1a
-#define base0C #1b7c83
-#define base0D #0349b4
-#define base0E #622cbc
-#define base0F #86061d
-#define base12 #86061d
-#define base13 #4e2c00
-#define base14 #055d20
-#define base15 #3192aa
-#define base16 #1168e3
-#define base17 #844ae7
+#define base00 #000000
+#define base01 #1b2b34
+#define base02 #343d46
+#define base03 #4f5b66
+#define base04 #65737e
+#define base05 #e0e4e7
+#define base06 #e7e7f7
+#define base07 #f7f7ff
+#define base08 #ff7518
+#define base09 #ff9f10
+#define base0A #ffcc00
+#define base0B #39aa62
+#define base0C #40e0d0
+#define base0D #01a0e4
+#define base0E #ab5ccb
+#define base0F #dd5500
+#define base12 #feac57
+#define base13 #ffee50
+#define base14 #4ce070
+#define base15 #20b2aa
+#define base16 #4b97c8
+#define base17 #ba8efa
 
 *foreground:   base05
 #ifdef background_opacity

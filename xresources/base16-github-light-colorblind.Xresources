@@ -4,20 +4,20 @@
 
 #define base00 #ffffff
 #define base01 #f6f8fa
-#define base02 #afb8c1
-#define base03 #8c959f
-#define base04 #6e7781
-#define base05 #424a53
-#define base06 #32383f
-#define base07 #24292f
-#define base08 #8a4600
-#define base09 #0550ae
-#define base0A #bf8700
-#define base0B #0a3069
-#define base0C #0550ae
-#define base0D #8250df
-#define base0E #b35900
-#define base0F #6f3800
+#define base02 #d1d9e0
+#define base03 #818b98
+#define base04 #59636e
+#define base05 #454c54
+#define base06 #25292e
+#define base07 #1f2328
+#define base08 #bc4c00
+#define base09 #953800
+#define base0A #9a6700
+#define base0B #0550ae
+#define base0C #1b7c83
+#define base0D #0969da
+#define base0E #8250df
+#define base0F #953800
 
 *foreground:   base05
 #ifdef background_opacity
