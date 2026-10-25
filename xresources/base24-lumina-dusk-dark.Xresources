@@ -1,0 +1,61 @@
+! base24 Lumina Dusk Dark
+! Scheme author: Razik Ikhlef (https://github.com/RazikSF)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #322434
+#define base01 #38283a
+#define base02 #423245
+#define base03 #4d3d50
+#define base04 #877489
+#define base05 #e6dee8
+#define base06 #b9acba
+#define base07 #e6dee8
+#define base08 #dd7168
+#define base09 #e0c4ad
+#define base0A #fad975
+#define base0B #97d2a2
+#define base0C #81d1da
+#define base0D #9ec4f7
+#define base0E #969fff
+#define base0F #e3a0f8
+#define base12 #e9948c
+#define base13 #ffe69e
+#define base14 #b0edbb
+#define base15 #9aebf5
+#define base16 #c4ddff
+#define base17 #f1c5ff
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base03
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

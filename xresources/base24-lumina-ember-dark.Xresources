@@ -1,0 +1,61 @@
+! base24 Lumina Ember Dark
+! Scheme author: Razik Ikhlef (https://github.com/RazikSF)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #1c1916
+#define base01 #211e1a
+#define base02 #2b2724
+#define base03 #35312d
+#define base04 #706b66
+#define base05 #e0d8cb
+#define base06 #b3b0ae
+#define base07 #e0d8cb
+#define base08 #d1635b
+#define base09 #f8a461
+#define base0A #e4d874
+#define base0B #90d6b4
+#define base0C #77cfd9
+#define base0D #78bbea
+#define base0E #d4c8f2
+#define base0F #e5a7df
+#define base12 #dd867e
+#define base13 #f7eb89
+#define base14 #a3f2cc
+#define base15 #90e9f4
+#define base16 #99d4ff
+#define base17 #ffc1f9
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base03
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
