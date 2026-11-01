@@ -2,28 +2,28 @@
 ! Scheme author: Razik Ikhlef (https://github.com/RazikSF)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #2f1d11
-#define base01 #352114
-#define base02 #402b1d
-#define base03 #4b3527
-#define base04 #866e5c
-#define base05 #e5dbcd
-#define base06 #beada3
-#define base07 #e5dbcd
-#define base08 #d47169
-#define base09 #ffbe92
-#define base0A #fdcf90
-#define base0B #92c79c
-#define base0C #b7dce5
-#define base0D #92bbea
-#define base0E #b6afe8
-#define base0F #dc8ebb
-#define base12 #e1938b
-#define base13 #ffe3be
-#define base14 #aae1b5
-#define base15 #bef2ff
-#define base16 #b0d5ff
-#define base17 #efadd2
+#define base00 #1e150e
+#define base01 #231911
+#define base02 #2d231b
+#define base03 #382d24
+#define base04 #74675d
+#define base05 #e5dfd6
+#define base06 #b8afa9
+#define base07 #e5dfd6
+#define base08 #cd766e
+#define base09 #d9bfa6
+#define base0A #efca86
+#define base0B #95d3b1
+#define base0C #90cad1
+#define base0D #96bfe9
+#define base0E #c7ade7
+#define base0F #dbadd6
+#define base12 #db968f
+#define base13 #ffe4b4
+#define base14 #b5ebcd
+#define base15 #a9e4ec
+#define base16 #b5d8fd
+#define base17 #f6c6f1
 
 *foreground:   base05
 #ifdef background_opacity
