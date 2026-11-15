@@ -1,0 +1,55 @@
+! base16 nightfox
+! Scheme author: EdenEast (https://github.com/EdenEast)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #192330
+#define base01 #212e3f
+#define base02 #29394f
+#define base03 #575860
+#define base04 #71839b
+#define base05 #cdcecf
+#define base06 #aeafb0
+#define base07 #e4e4e5
+#define base08 #c94f6d
+#define base09 #f4a261
+#define base0A #dbc074
+#define base0B #81b29a
+#define base0C #63cdcf
+#define base0D #719cd6
+#define base0E #9d79d6
+#define base0F #d67ad2
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

@@ -1,0 +1,55 @@
+! base16 Stranger Theme Dimension X
+! Scheme author: Stranger Theme (https://github.com/stranger-theme/stranger-theme)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #1e1a1a
+#define base01 #322e2e
+#define base02 #523535
+#define base03 #9a7c7c
+#define base04 #b8a5a5
+#define base05 #e8d5d5
+#define base06 #f4e1e1
+#define base07 #ffffff
+#define base08 #ff55aa
+#define base09 #ff6b6b
+#define base0A #bca89f
+#define base0B #8b7355
+#define base0C #d19a66
+#define base0D #c678dd
+#define base0E #e06c75
+#define base0F #d74343
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base08
+*color10:      base0B
+*color11:      base0A
+*color12:      base0D
+*color13:      base0E
+*color14:      base0C
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
