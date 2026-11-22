@@ -15,8 +15,8 @@
 #define base0A #ffdc00
 #define base0B #2ecc40
 #define base0C #39cccc
-#define base0D #b10dc9
-#define base0E #7fdbff
+#define base0D #7fdbff
+#define base0E #b10dc9
 #define base0F #d75d00
 
 *foreground:   base05

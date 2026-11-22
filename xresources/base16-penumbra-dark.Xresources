@@ -1,23 +1,23 @@
 ! base16 Penumbra Dark
-! Scheme author: Zachary Weiss (https://github.com/zacharyweiss)
+! Scheme author: Neal McKee (https://github.com/nealmckee/penumbra)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #24272b
-#define base01 #303338
-#define base02 #3e4044
-#define base03 #636363
-#define base04 #8f8f8f
-#define base05 #bebebe
-#define base06 #fff7ed
-#define base07 #fffdfb
-#define base08 #ca736c
-#define base09 #ba823a
-#define base0A #8d9741
-#define base0B #47a477
-#define base0C #00a2af
-#define base0D #5794d0
-#define base0E #9481cc
-#define base0F #bc73a4
+#define base00 #2c2e31
+#define base01 #383a3d
+#define base02 #484a4d
+#define base03 #5e6063
+#define base04 #777879
+#define base05 #8b8b8b
+#define base06 #b4b1ad
+#define base07 #efe8dd
+#define base08 #ba616a
+#define base09 #b3763e
+#define base0A #948a1d
+#define base0B #4f9158
+#define base0C #008986
+#define base0D #0081b4
+#define base0E #7176ae
+#define base0F #9c67a1
 
 *foreground:   base05
 #ifdef background_opacity

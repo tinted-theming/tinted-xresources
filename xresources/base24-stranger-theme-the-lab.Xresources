@@ -15,15 +15,15 @@
 #define base0A #ffdc00
 #define base0B #2ecc40
 #define base0C #39cccc
-#define base0D #b10dc9
-#define base0E #7fdbff
+#define base0D #7fdbff
+#define base0E #b10dc9
 #define base0F #d75d00
 #define base12 #ff5f54
 #define base13 #fffa1e
 #define base14 #4cea5e
 #define base15 #57eaea
-#define base16 #cf2be7
-#define base17 #9df9ff
+#define base16 #9df9ff
+#define base17 #cf2be7
 
 *foreground:   base05
 #ifdef background_opacity

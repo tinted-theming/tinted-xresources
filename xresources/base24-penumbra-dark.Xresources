@@ -1,0 +1,61 @@
+! base24 Penumbra Dark
+! Scheme author: Neal McKee (https://github.com/nealmckee/penumbra)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #2c2e31
+#define base01 #383a3d
+#define base02 #484a4d
+#define base03 #5e6063
+#define base04 #777879
+#define base05 #8b8b8b
+#define base06 #b4b1ad
+#define base07 #efe8dd
+#define base08 #ba616a
+#define base09 #b3763e
+#define base0A #948a1d
+#define base0B #4f9158
+#define base0C #008986
+#define base0D #0081b4
+#define base0E #7176ae
+#define base0F #9c67a1
+#define base12 #ba616a
+#define base13 #948a1d
+#define base14 #4f9158
+#define base15 #008986
+#define base16 #0081b4
+#define base17 #9c67a1
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base03
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
